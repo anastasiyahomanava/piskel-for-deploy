@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Piskel Clone App</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>Piskel Clone App</h1>
+  </header>
+
+  <main class="main">
+    <div class="tools">
+      <ul class="tools__list">
+        <li class="tools__pen tool__item active" data-tooltip="Pen"></li>
+        <li class="tools__fill tool__item" data-tooltip="Fill"></li>
+        <li class="tools__eraser tool__item" data-tooltip="Eraser"></li>
+        <li class="tools__line tool__item" data-tooltip="Draw line"></li>
+        <li class="tools__fill-all tool__item" data-tooltip="Fill all"></li>
+      </ul>
+    </div>
+
+    <div class="size">
+      <div class="size__item one-px active" data-tooltip="1px">1px</div>
+      <div class="size__item two-px" data-tooltip="2px">2px</div>
+      <div class="size__item three-px" data-tooltip="3px">3px</div>
+      <div class="size__item four-px" data-tooltip="4px">4px</div>
+    </div>
+
+    <div class="color">
+      <input type="color" id="color">
+      <input type="color" id="secColor">
+    </div>
+
+    <div class="canvas__container">
+      <canvas class="myCanvas" height="512" width="512"></canvas>
+    </div>
+
+    <div class="canvas__size">
+      <div class="canvas__size-item">32x32</div>
+      <div class="canvas__size-item">64x64</div>
+      <div class="canvas__size-item">128x128</div>
+    </div>
+  </main>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(51, 50, 50);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.header {
+  background-color: rgb(34, 34, 34);
+  color: rgb(255, 230, 0);
+}
+
+.header h1 {
+  padding: 20px 0;
+}
+
+.piskel-preview__text {
+  color: #d4d3d3;
+  padding-right: 10px;
+}
+
+.piskel-preview__text h2 {
+  margin-bottom: 20px;
+}
+
+.piskel-preview__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.piskel-preview__btn {
+  padding: 10px 20px;
+  background-color: rgb(255, 230, 0);
+  font-size: 1em;
+  margin-top: 30px;
+  border: 1px solid transparent;
+}
+
+.piskel-preview__btn:hover {
+  background-color: rgb(223, 201, 3);
+  cursor: pointer;
+}
+
+.piskel-preview__btn a {
+  color: #3d3c3c;
+  text-decoration: none;
+}
+
+.piskel-preview__image img {
+  width: 500px;
+}
+
+.piskel-about {
+  background-color: rgb(37, 37, 37);
+  color: #d4d3d3;
+  padding: 50px 0;
+}
+
+.piskel-about h3 {
+  color: rgb(255, 230, 0);
+  padding-bottom: 25px;
+}
+
+.piskel-about ul, .piskel-about p {
+  font-size: 0.8em;
+}
+
+.piskel-about ul li {
+  padding: 10px 5px;
+}
+
+.piskel-about__flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__flex-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0;
+  color: #d4d3d3;
+  font-size: 0.7em;
+}
+
+.footer__links {
+  display: flex;
+}
+
+.footer__links li {
+  padding: 0 5px;
+}
+
+.footer__links a {
+  color: #d4d3d3;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.footer__links a:hover {
+  color: rgb(255, 230, 0);
+}
